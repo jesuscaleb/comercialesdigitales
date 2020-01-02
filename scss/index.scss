@@ -1,0 +1,17 @@
+@import "bootstrap/bootstrap";
+@import "fonts";
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#itsystems-content {
+  flex: 1 0 auto;
+}
+
+.itsystems-footer {
+  flex-shrink: none;
+}
