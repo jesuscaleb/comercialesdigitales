@@ -8659,8 +8659,9 @@ a.text-dark:hover, a.text-dark:focus {
 /* Gothan Medium Italic */
 @font-face {
   font-family: Gothan Medium;
-  font-style: italic;
-  src: url("../fonts/GothamMediumItalic.ttf") format("opentype"); }
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GothamMedium.ttf") format("opentype"); }
 /* Sticky Footer Classes */
 html,
 body {
@@ -8671,5 +8672,119 @@ body {
 
 .itsystems-footer {
   flex-shrink: none; }
+
+/* Main Classes */
+.pink-title {
+  font-family: Gothan Medium;
+  color: #dd1f68; }
+
+/* Header */
+.itsystems-header-row {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.bg-header {
+  background-image: url("/img/bgasecom.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.black-layout {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.itsystems-header-img {
+  width: 50%;
+  margin-right: auto; }
+
+.itsystems-main-title h1 {
+  font-size: 60px;
+  font-family: Gothan Medium;
+  color: white; }
+.itsystems-main-title span {
+  color: #dd1f68;
+  font-size: 60px;
+  font-family: Gothan Medium; }
+
+.itsystems-div-form {
+  background-color: #1b1a1a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.itsystems-form-top h4 {
+  font-family: Gothan Bold;
+  color: white;
+  margin-bottom: 0px; }
+.itsystems-form-top p {
+  font-family: Gothan Book;
+  color: #dd1f68;
+  font-size: 20px; }
+
+.itsystems-form input, .itsystems-form select {
+  border-radius: 0px;
+  background-color: white;
+  border-color: white;
+  font-family: Gothan Book;
+  color: #a8a8a8; }
+.itsystems-form select {
+  font-size: 14.3px; }
+.itsystems-form .chkAuto {
+  color: #a8a8a8;
+  font-family: Gothan Book; }
+.itsystems-form .chkAuto:before {
+  border-radius: 0px;
+  background-color: #a8a8a8;
+  border-color: #a8a8a8; }
+.itsystems-form ::placeholder {
+  color: #a8a8a8;
+  opacity: 1;
+  /* Firefox */ }
+.itsystems-form :-ms-input-placeholder, .itsystems-form :-ms-select-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #a8a8a8; }
+.itsystems-form ::-ms-input-placeholder, .itsystems-form ::-ms-select-placeholder {
+  /* Microsoft Edge */
+  color: #a8a8a8; }
+
+.button-row {
+  margin-top: 25px; }
+  .button-row button[type='submit'] {
+    border-radius: 0px;
+    border: #dd1f68;
+    background-color: #dd1f68;
+    color: white;
+    font-family: Gothan Bold;
+    font-size: 15px; }
+
+/* Main Info */
+.itsystems-main {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.itsystems-main-desc {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px; }
+  .itsystems-main-desc p {
+    color: #545454;
+    font-family: Gothan Book; }
+
+.itsystems-item-desc p {
+  color: #545454;
+  font-family: Gothan Book; }
+
+.itsystems-item-sub p {
+  font-family: Gothan Medium;
+  color: #1b1a1a; }
+
+/* Ventajas */
+.border-ventaja {
+  -webkit-box-shadow: 1px 2px 9px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 2px 9px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 2px 9px 2px rgba(0, 0, 0, 0.75);
+  padding: 40px; }
+
+.itsystems-ventajas-head {
+  margin-bottom: 40px; }
 
 /*# sourceMappingURL=index.css.map */
