@@ -8662,6 +8662,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/GothamMedium.ttf") format("opentype"); }
+/* Resolution Variables */
 /* Sticky Footer Classes */
 html,
 body {
@@ -8677,6 +8678,13 @@ body {
 .pink-title {
   font-family: Gothan Medium;
   color: #dd1f68; }
+
+.bg-black {
+  background-color: #1b1a1a; }
+
+.white-title {
+  font-family: Gothan Medium;
+  color: white; }
 
 /* Header */
 .itsystems-header-row {
@@ -8696,13 +8704,19 @@ body {
   margin-right: auto; }
 
 .itsystems-main-title h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-family: Gothan Medium;
   color: white; }
+  @media screen and (max-width: 370px) {
+    .itsystems-main-title h1 {
+      font-size: 40px; } }
 .itsystems-main-title span {
   color: #dd1f68;
   font-size: 60px;
   font-family: Gothan Medium; }
+  @media screen and (max-width: 370px) {
+    .itsystems-main-title span {
+      font-size: 40px; } }
 
 .itsystems-div-form {
   background-color: #1b1a1a;
@@ -8763,8 +8777,7 @@ body {
 
 .itsystems-main-desc {
   margin-left: auto;
-  margin-right: auto;
-  width: 700px; }
+  margin-right: auto; }
   .itsystems-main-desc p {
     color: #545454;
     font-family: Gothan Book; }
@@ -8786,5 +8799,83 @@ body {
 
 .itsystems-ventajas-head {
   margin-bottom: 40px; }
+
+/* About */
+.bg-about {
+  background-color: #1b1a1a; }
+
+.itsystems-bloque-title p {
+  color: #dd1f68;
+  font-family: Gothan Medium;
+  font-size: 17px; }
+
+.itsystems-bloque-list ul {
+  padding-left: 1px; }
+  .itsystems-bloque-list ul li {
+    list-style-type: none;
+    font-family: Gothan Book;
+    padding-bottom: 10px;
+    color: white; }
+  .itsystems-bloque-list ul li:before {
+    content: '-'; }
+
+.bg-abot {
+  background-color: white; }
+
+.itsystems-about-item h5 {
+  color: #dd1f68;
+  font-family: Gothan Medium; }
+.itsystems-about-item p {
+  color: #545454;
+  font-family: Gothan Book; }
+
+.itsystems-info-img {
+  width: 285px;
+  height: auto; }
+  @media screen and (max-width: 370px) {
+    .itsystems-info-img {
+      width: 100%; } }
+
+/* Bottom Info */
+.horizontal-gradient {
+  width: 100%;
+  height: 1px;
+  background: #a8a8a8;
+  background: linear-gradient(90deg, rgba(168, 168, 168, 0) 0%, #a8a8a8 13%, #dd1fc2 100%);
+  margin-bottom: 30px; }
+
+.itsystems-info-desc p {
+  font-family: Gothan Book;
+  font-size: 22px;
+  color: #545454;
+  margin-bottom: 0px; }
+  .itsystems-info-desc p span {
+    color: #dd1f68;
+    font-weight: bold; }
+
+.horizontal-gradient-reverse {
+  width: 100%;
+  height: 1px;
+  background: #dd1fc2;
+  background: linear-gradient(90deg, #dd1fc2 0%, #a8a8a8 86%, rgba(168, 168, 168, 0) 97%);
+  margin-top: 30px; }
+
+/* Footer */
+.itsystems-footer .itsystems-pre-footer {
+  background-color: #1b1a1a; }
+  .itsystems-footer .itsystems-pre-footer .itsystems-footer-contacto {
+    margin-top: 30px; }
+    .itsystems-footer .itsystems-pre-footer .itsystems-footer-contacto p {
+      font-size: 13px;
+      color: white;
+      margin-bottom: 0px;
+      font-family: Gothan Book; }
+  .itsystems-footer .itsystems-pre-footer .itsystems-footer-logo {
+    max-width: 65%;
+    margin-left: auto; }
+.itsystems-footer .itsystems-footer-post {
+  background-color: black;
+  color: #a8a8a8;
+  font-family: Gothan Book; }
 
 /*# sourceMappingURL=index.css.map */
