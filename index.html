@@ -28,25 +28,26 @@
                       <div class="col-md-5 offset-md-1">
                         <div class="itsystems-div-form">
                           <div class="container">
+                            <div class="response text-center text-center"></div>
+                            <div class="itsystems-form after-post">
                           <div class="itsystems-form-top text-center">
                             <h4>¿Necesitas más información?</h4>
                             <p>Déjanos tus datos y resolveremos tus dudas</p>
                           </div>
-                          <div class="itsystems-form">
-                            <form class="form" action="#" method="" autocomplete="off">
+                            <form id="itsystems-form1" class="form" autocomplete="off">
                               <div class="row">
                                 <div class="col-md-6">
                                   <div class="form-group">
                                     <input class="form-control" type="text" name="txtNom" id="txtNom" placeholder="Nombres Completos*">
                                   </div>
-                                  <div class="form-group">
+                                  <div class="form-group telf-error">
                                     <input class="form-control" type="text" name="txtTelf" id="txtTelf" placeholder="Número de teléfono*">
                                   </div>
                                   <div class="form-group">
                                     <input class="form-control" type="text" name="txtNroDoc" id="txtNroDoc" placeholder="Nro de Documento*">
                                   </div>
                                   <div class="form-group">
-                                    <input class="form-control" type="text" name="txtEmpresa" id="txtNroDoc" placeholder="Empresa*">
+                                    <input class="form-control" type="text" name="txtEmpresa" id="txtEmpresa" placeholder="Empresa*">
                                   </div>
                                 </div>
                                 <div class="col-md-6">
@@ -76,7 +77,7 @@
                                   </div>
                                 </div>
                                 <div class="button-row">
-                                  <button type="submit" class="btn btn-primary btn-lg btn-block">ENVIAR</button>
+                                  <button type="submit" class="btn btn-primary btn-lg btn-block btn-enviar">ENVIAR</button>
                                 </div>
                               </div>
                             </form>
@@ -209,7 +210,7 @@
                       </div>
                       <div class="itsystems-bloque-list">
                         <ul>
-                          <li>Ventas en el entorno B2B y B2.</li>
+                          <li>Ventas en el entorno B2B y B2C.</li>
                           <li>Análisis de la Oportunidad y calificando el potencial cliente.</li>
                           <li>Generación de nuevas oportunidades.</li>
                           <li>Generación de prospectos vía LinkedIn.</li>
@@ -298,14 +299,15 @@
             <section id="ITSYSTEMS-FORM2">
               <div class="bg-black">
                 <div class="container itsystems-div-form">                
+                  <div class="response text-center"></div>
+                  <div class="itsystems-form after-post">
                   <div class="row">
                       <div class="col-12 col-md-12 text-center itsystems-form-top">
                           <h4>¿Necesitas más información?</h4>
                           <p>Déjanos tus datos y resolveremos tus dudas</p>
                       </div>
                   </div>
-                  <div class="itsystems-form">
-                      <form class="form" action="#" method="" autocomplete="off">
+                      <form class="form" id="itsystems-form2" autocomplete="off">
                         <div class="row itsystems-footer-form-top">
                           <div class="col-md-4">
                             <div class="form-group">
@@ -315,7 +317,7 @@
                               <input class="form-control" type="text" name="txtNroDoc2" id="txtNroDoc2" placeholder="Nro de Documento*">
                             </div>
                             <div class="form-group">
-                              <input class="form-control" type="text" name="txtEmpresa2" id="txtNroDoc2" placeholder="Empresa*">
+                              <input class="form-control" type="text" name="txtEmpresa2" id="txtEmpresa2" placeholder="Empresa*">
                             </div>
                           </div>
                           <div class="col-md-4">
@@ -326,8 +328,8 @@
                               <input class="form-control" type="text" name="txtCargo2" id="txtCargo2" placeholder="Cargo*">
                             </div>
                           </div>
-                          <div class="col-md-4">
-                            <div class="form-group">
+                          <div class="col-md-4">                            
+                            <div class="form-group telf-error2">
                               <input class="form-control" type="text" name="txtTelf2" id="txtTelf2" placeholder="Número de teléfono*">
                             </div>
                             <div class="form-group">
@@ -350,7 +352,7 @@
                             </div>
                           </div>
                           <div class="button-row">
-                            <button type="submit" class="btn btn-primary btn-lg btn-block">ENVIAR</button>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block btn-enviar">ENVIAR</button>
                           </div>
                         </div>
                       </form>
@@ -388,5 +390,14 @@
             </section>
           </section>
         </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/jquery-validate.min.js"></script>
+      <script src="js/intlTelInput.min.js"></script>
+      <script src="js/utils.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/index.js"></script>
       </body>
 </html>

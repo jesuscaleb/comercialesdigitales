@@ -1,6 +1,6 @@
 @import "bootstrap/bootstrap";
 @import "fonts";
-
+@import "intl-telf-input.scss";
 
 $bgimage : '/img/bgasecom.png';
 $blacklyot : rgba(0,0,0,0.7);
@@ -31,6 +31,12 @@ body {
 }
 
 /* Main Classes */
+
+.error{
+  color: $red;
+  font-family: Gothan Book;
+  font-size: 13px;
+}
 
 .pink-title{
   font-family: Gothan Medium;
@@ -349,4 +355,14 @@ body {
   color: $gray-168;
   font-family: Gothan Book;
 }
+}
+
+// Custom intl-telf-input code
+.iti__flag {background-image: url("/img/flags.png");}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .iti__flag {background-image: url("/img/flags@2x.png");}
+}
+
+.iti{
+  width: 100%;
 }
