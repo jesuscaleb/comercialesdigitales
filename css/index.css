@@ -8786,9 +8786,25 @@ body {
   color: #545454;
   font-family: Gothan Book; }
 
-.itsystems-item-sub p {
-  font-family: Gothan Medium;
-  color: #1b1a1a; }
+.itsystems-item-img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  @media screen and (max-width: 768px) {
+    .itsystems-item-img {
+      width: 50%; } }
+  .itsystems-item-img img {
+    max-width: 100%;
+    height: auto; }
+
+.itsystems-item-sub {
+  text-align: left; }
+  @media screen and (max-width: 768px) {
+    .itsystems-item-sub {
+      text-align: center; } }
+  .itsystems-item-sub p {
+    font-family: Gothan Medium;
+    color: #1b1a1a; }
 
 /* Ventajas */
 .border-ventaja {
@@ -8822,6 +8838,14 @@ body {
 .bg-abot {
   background-color: white; }
 
+.itsystems-about {
+  margin-top: 60px;
+  padding-bottom: 50px; }
+
+.itsystems-about-top {
+  padding-top: 45px;
+  padding-bottom: 70px; }
+
 .itsystems-about-item h5 {
   color: #dd1f68;
   font-family: Gothan Medium; }
@@ -8836,7 +8860,18 @@ body {
     .itsystems-info-img {
       width: 100%; } }
 
+.itsystems-about-bottom {
+  margin-top: 40px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-bottom: 15px; }
+
 /* Bottom Info */
+.itsystems-info {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
 .horizontal-gradient {
   width: 100%;
   height: 1px;

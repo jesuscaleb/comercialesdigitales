@@ -13,6 +13,7 @@ $black-main:rgb(0,0,0);
 
 /* Resolution Variables */
 $break-small : 370px;
+$break-medium: 768px;
 
 /* Sticky Footer Classes */
 
@@ -177,10 +178,28 @@ body {
     font-family: Gothan Book;
   }
 }
+
+.itsystems-item-img{
+  width: 100%;
+  @media screen and (max-width: $break-medium) {
+    width: 50%;
+  }
+    margin-left: auto;
+    margin-right: auto;
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+}
 .itsystems-item-sub{
+  text-align: left;
+  @media screen and (max-width: $break-medium) {
+    text-align: center;
+  }
   p{
     font-family: Gothan Medium;
     color: $black;
+    
   }
 }
 
@@ -191,6 +210,7 @@ body {
   -moz-box-shadow: 1px 2px 9px 2px rgba(0,0,0,0.75);
   box-shadow: 1px 2px 9px 2px rgba(0,0,0,0.75);
   padding:40px;
+  
 }
 
 .itsystems-ventajas-head{
@@ -229,6 +249,17 @@ body {
   background-color: $white;
 }
 
+.itsystems-about{
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+
+.itsystems-about-top{
+  padding-top: 45px;
+  padding-bottom: 70px;
+
+}
+
 .itsystems-about-item{
   h5{
     color: $pink;
@@ -248,7 +279,20 @@ body {
   height: auto;
 }
 
+.itsystems-about-bottom{
+  margin-top: 40px;
+  padding-left: 80px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+}
+
 /* Bottom Info */
+.itsystems-info{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .horizontal-gradient{
   width: 100%;
   height: 1px;
